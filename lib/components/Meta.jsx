@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 export const Meta = ({ title }) => {
-  const defaultTitle = 'PoolTogether'
+  const defaultTitle = 'Lossless'
   title = title ? `${title} - ${defaultTitle}` : defaultTitle
 
   let url = `https://pooltogether.com`
