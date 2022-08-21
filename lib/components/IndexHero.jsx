@@ -25,7 +25,7 @@ export const IndexHero = (props) => {
     <>
       <div className='relative'>
         <div className='pool-container flex flex-col sm:flex-row justify-between pt-12 mx-auto'>
-          <div className='relative hero-text-left mb-12 sm:mb-0'>
+          <div className='flex justify-center items-center relative hero-text-left mb-12 sm:mb-0'>
             <div className='w-3/4 xs:w-7/12 sm:w-full mx-auto'>
               <ReactFitty className='font-bold leading-none text-center'>
                 <span className='text-flashy'>Save, pool funds,</span>
@@ -35,15 +35,20 @@ export const IndexHero = (props) => {
                 <span className='text-flashy'>& win prizes together</span>
               </ReactFitty>
 
-              <div className='text-center mt-6 sm:mt-12'>
-                <ButtonLink
-                  width='w-full'
-                  textSize='xl'
-                  href='https://app.pooltogether.com'
-                  as='https://app.pooltogether.com'
+              <div className='my-8'>
+                <p className='text-lg'>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, deserunt!
+                </p>
+              </div>
+
+              <div className='flex justify-center items-center text-center'>
+                <a
+                  id='poolBtn'
+                  href='https://lossless-ui.vercel.app/'
+                  className='w-full rounded-lg border-2 text-purple border-green bg-green px-5 py-2 text-xl font-semibold hover:text-green hover:bg-default transition-colors duration-300 ease-in-out'
                 >
                   Join the Pool
-                </ButtonLink>
+                </a>
               </div>
             </div>
           </div>
