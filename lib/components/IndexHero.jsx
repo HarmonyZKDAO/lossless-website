@@ -45,7 +45,7 @@ export const IndexHero = (props) => {
                 <a
                   id='poolBtn'
                   href='https://lossless-ui.vercel.app/'
-                  className='w-full rounded-lg border-2 text-purple border-green bg-green px-5 py-2 text-xl font-semibold hover:text-green hover:bg-slate900 transition-colors duration-300 ease-in-out'
+                  className='w-full rounded-lg border-2 text-slate900 border-green bg-green px-5 py-2 text-xl font-semibold hover:text-green hover:bg-slate900 transition-colors duration-300 ease-in-out'
                 >
                   Join the Pool
                 </a>

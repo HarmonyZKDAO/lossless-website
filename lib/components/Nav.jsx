@@ -42,7 +42,7 @@ export const Nav = (props) => {
           <a
             id='poolBtn'
             href='https://lossless-ui.vercel.app/'
-            className='rounded-lg border-2 text-green border-green bg-slate900 px-5 py-1 text-lg font-semibold hover:text-purple hover:bg-green transition-colors duration-300 ease-in-out'
+            className='rounded-lg border-2 text-green border-green bg-slate900 px-5 py-1 text-lg font-semibold hover:text-slate900 hover:bg-green transition-colors duration-300 ease-in-out'
           >
             App
           </a>

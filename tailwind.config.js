@@ -88,6 +88,8 @@ module.exports = {
         teal: 'var(--color-text-teal)',
         'accent-grey-1': 'var(--color-text-accent-grey-1)',
         purple: 'var(--color-text-purple)',
+        slate100: 'var(--color-slate-100)',
+        slate900: 'var(--color-slate-900)'
       },
       borderColor: {
         'accent-1': 'var(--color-border-accent-1)',
