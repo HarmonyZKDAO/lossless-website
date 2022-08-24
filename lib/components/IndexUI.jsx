@@ -13,9 +13,9 @@ export const IndexUI = (props) => {
     <>
       <IndexHero />
       <IndexIntegrations />
-      <IndexHowItWorks />
+      {/* <IndexHowItWorks /> */}
       <IndexPoolToken />
-      <IndexSecurity />
+      {/* <IndexSecurity /> */}
       <IndexSupportedBy />
       <IndexGetInvolved />
     </>

@@ -30,12 +30,12 @@ export const SocialCTAs = () => {
           <img alt={`Github logo`} src={GithubLogo} className='h-6 xs:h-8' />
         </a>
 
-        <a
+        {/* <a
           href='https://medium.com/pooltogether'
           className='interactable-chip interactable-chip-main-bg items-center justify-center my-2'
         >
           <img alt={`Medium logo`} src={MediumLogo} className='h-6 xs:h-8' />
-        </a>
+        </a> */}
       </div>
     </>
   )

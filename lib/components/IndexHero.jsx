@@ -5,6 +5,7 @@ import { ButtonLink } from 'lib/components/ButtonLink'
 import { TVLAndWeeklyPrizesBanner } from 'lib/components/TVLAndWeeklyPrizesBanner'
 import { WistiaPlayer } from 'lib/components/WistiaPlayer'
 import { IndexHeroFeaturedIn } from 'lib/components/IndexHeroFeaturedIn'
+import { IndexHowItWorks } from 'lib/components/IndexHowItWorks'
 
 import Squiggle from 'assets/images/squiggle.svg'
 import SquiggleMobile from 'assets/images/squiggle-mobile.svg'
@@ -36,8 +37,8 @@ export const IndexHero = (props) => {
               </ReactFitty>
 
               <div className='my-8'>
-                <p className='text-lg'>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, deserunt!
+                <p className='text-xl'>
+                  Lossless is an open source and decentralized protocol for no-loss prize games
                 </p>
               </div>
 
@@ -70,11 +71,15 @@ export const IndexHero = (props) => {
           </div>
         </div>
 
-        <TVLAndWeeklyPrizesBanner />
+        {/* <TVLAndWeeklyPrizesBanner /> */}
 
-        <IndexHeroFeaturedIn />
+        {/* <IndexHeroFeaturedIn /> */}
 
-        <div className='pool-container text-center relative flex flex-col sm:flex-row mt-10 mb-16 sm:my-20 mx-auto'>
+        <div className='my-10'>
+          <IndexHowItWorks />
+        </div>
+
+        {/* <div className='pool-container text-center relative flex flex-col sm:flex-row mt-10 mb-16 sm:my-20 mx-auto'>
           <div className='bg-card rounded-xl mx-auto w-full sm:w-full py-8 sm:py-8 lg:px-12 lg:py-12 text-center sm:text-left'>
             <h1 className='text-center'>PoolTogether</h1>
 
@@ -86,7 +91,7 @@ export const IndexHero = (props) => {
               <br /> protocol for no-loss prize games
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   )
