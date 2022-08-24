@@ -32,6 +32,8 @@ import 'assets/styles/pool-toast.css'
 import 'assets/styles/reach--custom.css'
 import 'assets/styles/vx--custom.css'
 
+import "@fontsource/poppins"
+
 const queryCache = new QueryCache()
 
 if (process.env.NEXT_JS_SENTRY_DSN) {
