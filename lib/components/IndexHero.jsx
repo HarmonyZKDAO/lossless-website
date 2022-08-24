@@ -37,7 +37,7 @@ export const IndexHero = (props) => {
               </ReactFitty>
 
               <div className='my-8'>
-                <p className='text-xl'>
+                <p className='text-lg'>
                   Lossless is an open source and decentralized protocol for no-loss prize games
                 </p>
               </div>

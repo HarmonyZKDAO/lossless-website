@@ -20,6 +20,8 @@ export const Footer = () => {
   const linkClassNames = 'trans trans-fast text-accent-1 no-underline'
   // mt-1 sm:mt-3
 
+  const year = new Date().getFullYear()
+
   const FooterLink = (props) => (
     <>
       <li className={linkListItemClassNames}>
@@ -52,29 +54,31 @@ export const Footer = () => {
               </Link>
             </div>
 
-            <nav className='flex flex-wrap w-full sm:flex-no-wrap sm:justify-between sm:w-1/2'>
-              <div className='w-full sm:w-1/3 sm:w-auto flex flex-col mb-8 mt-12 sm:my-0'>
+            <nav className='flex flex-wrap w-full sm:flex-no-wrap sm:justify-around sm:w-1/2'>
+              <div className='w-full sm:w-auto flex flex-col mb-8 mt-12 sm:my-0'>
                 <span className='font-bold block'>Ecosystem</span>
                 <ul>
-                  <FooterLink href='/developers'>Developers</FooterLink>
-                  <FooterLink href='/audits'>Security</FooterLink>
-                  <FooterLink href='/faq'>FAQ</FooterLink>
-                  <FooterLink href='/brand-assets'>Assets</FooterLink>
-                  <FooterLink href='https://gov.pooltogether.com/'>Governance</FooterLink>
-                  <FooterLink href='https://www.notion.so/PoolTogether-Knowledge-Base-fa721ccefa3242eaabd125a8415acd27'>
-                    Knowledge Base
+                  <FooterLink href='https://github.com/HarmonyZKDAO/lossless-website'>
+                    Developers
                   </FooterLink>
+                  {/* <FooterLink href='/audits'>Security</FooterLink>
+                  <FooterLink href='/faq'>FAQ</FooterLink>
+                  <FooterLink href='/brand-assets'>Assets</FooterLink> */}
+                  <FooterLink href='https://gov.pooltogether.com/'>Governance</FooterLink>
+                  {/* <FooterLink href='https://www.notion.so/PoolTogether-Knowledge-Base-fa721ccefa3242eaabd125a8415acd27'>
+                    Knowledge Base
+                  </FooterLink> */}
                 </ul>
               </div>
 
-              <div className='w-full sm:w-1/3 flex flex-col mb-8 sm:my-0'>
+              {/* <div className='w-full sm:w-1/3 flex flex-col mb-8 sm:my-0'>
                 <span className='font-bold block'>Releases</span>
 
                 <ul>
                   <FooterLink href='https://v2.pooltogether.com'>Version 2</FooterLink>
                   <FooterLink href='https://v1.pooltogether.com'>Version 1</FooterLink>
                 </ul>
-              </div>
+              </div> */}
 
               <div
                 className='w-1/2 md:w-auto flex flex-col mb-8 md:my-0'
@@ -97,9 +101,9 @@ export const Footer = () => {
                     Github
                   </FooterLink>
 
-                  <FooterLink href='https://medium.com/pooltogether' iconSrc={MediumLogo}>
+                  {/* <FooterLink href='https://medium.com/pooltogether' iconSrc={MediumLogo}>
                     Medium
-                  </FooterLink>
+                  </FooterLink> */}
 
                   {/* 
                       <FooterLink
@@ -149,9 +153,9 @@ export const Footer = () => {
           </div>
 
           <div className='flex justify-between flex-col sm:flex-row sm:pt-2 pb-10 sm:pb-20 lg:pb-20 text-xs border-t'>
-            <div className='w-32 lg:w-32'>
+            {/* <div className='w-32 lg:w-32'>
               <nav className='flex justify-between w-full'>
-                {/* <a
+                <a
                 className={classnames(
                   'mt-2 sm:mt-4',
                   linkClassNames,
@@ -159,7 +163,7 @@ export const Footer = () => {
                 href='/privacy'
               >
                 Privacy
-              </a> */}
+              </a>
                 <a className={classnames('mt-2 sm:mt-4', linkClassNames)} href='/terms'>
                   Terms
                 </a>
@@ -167,7 +171,10 @@ export const Footer = () => {
                   Sitemap
                 </a>
               </nav>
-            </div>
+            </div> */}
+            <span className='flex justify-center items-center space-x-1'>
+              Copyright &copy; {year} Lossless. All Rights Reserved.
+            </span>
           </div>
         </div>
       </footer>
