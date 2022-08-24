@@ -18,7 +18,11 @@ export const Nav = (props) => {
   return (
     <>
       <nav className='justify-end items-center hidden sm:flex w-2/3'>
-        <Link href='/developers' as='/developers' shallow>
+        <Link
+          href='https://github.com/HarmonyZKDAO/lossless-website'
+          as='https://github.com/HarmonyZKDAO/lossless-website'
+          shallow
+        >
           <a
             className={classnames('mr-3', navLinkClasses, {
               'text-white hover:text-highlight-2': !developersPage,
