@@ -25,7 +25,7 @@ export const IndexPoolToken = (props) => {
             </span>
           </h1>
 
-          <p className='text-sm xs:text-xl sm:text-xl lg:text-3xl text-center mt-10 mx-auto lg:max-w-4xl'>
+          <p className='text-xl text-center mt-10 mx-auto lg:max-w-4xl'>
             The PoolTogether Protocol is controlled by POOL token holders.
             <br className='hidden lg:block' />
             &nbsp;All changes to the protocol are submitted and approved.
@@ -35,7 +35,7 @@ export const IndexPoolToken = (props) => {
           </p>
 
           <div className='mt-10'>
-            <div className='sm:w-7/12 lg:w-1/2 sm:mx-auto my-6'>
+            {/* <div className='sm:w-7/12 lg:w-1/2 sm:mx-auto my-6'>
               <ButtonLink
                 textSize='xl'
                 width='w-full'
@@ -44,8 +44,18 @@ export const IndexPoolToken = (props) => {
               >
                 Deposit to receive POOL tokens
               </ButtonLink>
+            </div> */}
+            <div className='grid'>
+
             </div>
-            <div className='sm:w-7/12 lg:w-1/2 sm:mx-auto my-6'>
+            <a
+              id='poolBtn'
+              href='https://lossless-ui.vercel.app/'
+              className='w-full rounded-lg border-2 text-slate900 border-green bg-green px-5 py-2 text-xl font-semibold hover:text-green hover:bg-darkened transition-colors duration-300 ease-in-out'
+            >
+              Deposit to receive POOL tokens
+            </a>
+            {/* <div className='sm:w-7/12 lg:w-1/2 sm:mx-auto my-10'>
               <ButtonLink
                 tertiary
                 textSize='xl'
@@ -55,6 +65,15 @@ export const IndexPoolToken = (props) => {
               >
                 Learn about governance
               </ButtonLink>
+            </div> */}
+            <div className='mt-10'>
+              <a
+                href='https://github.com/HarmonyZKDAO/lossless-website'
+                rel="noreferrer noopener nofollow"
+                className='text-green hover:underline hover:text-green'
+              >
+                Learn about governance
+              </a>
             </div>
           </div>
         </div>

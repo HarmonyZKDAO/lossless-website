@@ -33,24 +33,24 @@ export const Nav = (props) => {
           </a>
         </Link>
 
-        <Link href='https://app.pooltogether.com' as='https://app.pooltogether.com'>
-          {/* <a
+        {/* <Link href='https://app.pooltogether.com' as='https://app.pooltogether.com'>
+          <a
           className={classnames(
             'inline-flex items-center justify-center uppercase font-bold tracking-wider outline-none focus:outline-none active:outline-none',
             'hover:bg-default rounded-full border-2 border-highlight-2 px-10 py-1 trans trans-fast text-lg',
           )}
         >
           {t('app')}
-        </a> */}
-
-          <a
-            id='poolBtn'
-            href='https://lossless-ui.vercel.app/'
-            className='rounded-lg border-2 text-green border-green bg-slate900 px-5 py-1 text-lg font-semibold hover:text-slate900 hover:bg-green transition-colors duration-300 ease-in-out'
-          >
-            App
-          </a>
-        </Link>
+        </a>
+        </Link> */}
+        <a
+          id='poolBtn'
+          rel="noreferrer noopener nofollow"
+          href='https://lossless-ui.vercel.app/'
+          className='rounded-lg border-2 text-green border-green bg-slate900 px-5 py-1 text-lg font-semibold hover:text-slate900 hover:bg-green transition-colors duration-300 ease-in-out'
+        >
+          App
+        </a>
       </nav>
     </>
   )

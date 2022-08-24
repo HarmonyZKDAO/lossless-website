@@ -38,10 +38,10 @@ export const IndexIntegrations = () => {
             <div className='flex flex-col items-center'>
               <h2 className='mt-4 mb-8 text-center'>Check out our developer documentation</h2>
               <p className='text-sm xs:text-lg sm:text-xl max-w-lg text-center'>
-                Learn about the PoolTogether protocol and emerging use cases
+                Learn about the Lossless protocol and emerging use cases
               </p>
 
-              <ButtonLink
+              {/* <ButtonLink
                 secondary
                 textSize='2xl'
                 href='https://docs.pooltogether.com'
@@ -49,7 +49,13 @@ export const IndexIntegrations = () => {
                 className='my-8 w-3/4 sm:w-1/2'
               >
                 Go to docs
-              </ButtonLink>
+              </ButtonLink> */}
+              <a
+                href='https://github.com/HarmonyZKDAO/lossless-website'
+                className='rounded-lg border-2 mt-5 hover:text-purple border-green hover:bg-green px-5 py-3 text-xl font-semibold text-green bg-default transition-colors duration-300 ease-in-out'
+              >
+                Go to Docs
+              </a>
             </div>
           </div>
         </div>
