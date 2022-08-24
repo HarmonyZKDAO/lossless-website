@@ -52,7 +52,7 @@ export const IndexIntegrations = () => {
               </ButtonLink> */}
               <a
                 href='https://github.com/HarmonyZKDAO/lossless-website'
-                className='rounded-lg border-2 mt-5 hover:text-purple border-green hover:bg-green px-5 py-3 text-xl font-semibold text-green bg-default transition-colors duration-300 ease-in-out'
+                className='rounded-lg border-2 mt-5 hover:text-purple border-blue-2 hover:bg-blue-2 px-5 py-3 text-xl font-semibold text-blue-2 bg-default transition-colors duration-300 ease-in-out'
               >
                 Go to Docs
               </a>

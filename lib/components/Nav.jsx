@@ -17,8 +17,8 @@ export const Nav = (props) => {
 
   return (
     <>
-      <nav className='justify-end items-center hidden sm:flex w-2/3'>
-        <Link
+      <nav className='justify-end items-center hidden sm:flex w-2/3 space-x-5'>
+        {/* <Link
           href='https://github.com/HarmonyZKDAO/lossless-website'
           as='https://github.com/HarmonyZKDAO/lossless-website'
           shallow
@@ -31,7 +31,15 @@ export const Nav = (props) => {
           >
             {t('developers')}
           </a>
-        </Link>
+        </Link> */}
+        <a
+          id='poolBtn'
+          rel="noreferrer noopener nofollow"
+          href='https://github.com/HarmonyZKDAO/lossless-website'
+          className='hover:text-blue-2 text-slate100'
+        >
+          Developers
+        </a>
 
         {/* <Link href='https://app.pooltogether.com' as='https://app.pooltogether.com'>
           <a
@@ -47,7 +55,7 @@ export const Nav = (props) => {
           id='poolBtn'
           rel="noreferrer noopener nofollow"
           href='https://lossless-ui.vercel.app/'
-          className='rounded-lg border-2 text-green border-green bg-slate900 px-5 py-1 text-lg font-semibold hover:text-slate900 hover:bg-green transition-colors duration-300 ease-in-out'
+          className='rounded-lg border-2 text-blue-2 border-blue-2 bg-slate900 px-5 py-1 text-lg font-semibold hover:text-slate900 hover:bg-blue-2 transition-colors duration-300 ease-in-out'
         >
           App
         </a>

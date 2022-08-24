@@ -62,7 +62,10 @@ module.exports = {
         'accent-grey-1': 'var(--color-bg-accent-grey-1)',
         'accent-grey-2': 'var(--color-bg-accent-grey-2)',
         purple: 'var(--color-bg-purple)',
-        slate900: 'var(--color-slate-900)'
+        slate900: 'var(--color-slate-900)',
+        blue900: 'var(--color-bg-blue900)',
+        blue500: 'var(--color-text-blue500)',
+        blue800: 'var(--color-blue-800)'
       },
       textColor: {
         'accent-1': 'var(--color-text-accent-1)',
@@ -89,7 +92,8 @@ module.exports = {
         'accent-grey-1': 'var(--color-text-accent-grey-1)',
         purple: 'var(--color-text-purple)',
         slate100: 'var(--color-slate-100)',
-        slate900: 'var(--color-slate-900)'
+        slate900: 'var(--color-slate-900)',
+        blue500: 'var(--color-text-blue500)'
       },
       borderColor: {
         'accent-1': 'var(--color-border-accent-1)',
@@ -108,6 +112,7 @@ module.exports = {
         green: 'var(--color-border-green)',
         blue: 'var(--color-border-blue)',
         'blue-2': 'var(--color-border-blue-2)',
+        blue500: 'var(--color-text-blue500)'
       },
       boxShadow: {
         'elevation': '0 1px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 4px 0 rgba(0, 0, 0, 0.12), 0 3px 3px 0 rgba(0, 0, 0, 0.14)',

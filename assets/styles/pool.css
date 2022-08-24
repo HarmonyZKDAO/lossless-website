@@ -18,7 +18,7 @@
 }
 
 * {
-  --flashyGradient: linear-gradient(40deg, #ff62cc 10%, #f7fe0c 40%, #2af787 60%, #00f0d0 80%);
+  --flashyGradient: linear-gradient(40deg, #3b82f6 10%, #6366f1 40%, #8b5cf6 60%, #d946ef 80%);
 }
 
 html {
