@@ -20,24 +20,18 @@ const links = [
   },
   {
     label: 'Developers',
-    href: '/developers',
-    as: '/developers'
+    href: 'https://github.com/HarmonyZKDAO/lossless-website',
+    as: 'https://github.com/HarmonyZKDAO/lossless-website'
   },
   {
     label: 'App',
     href: 'https://app.pooltogether.com',
     as: 'https://app.pooltogether.com'
-  },
+  }
 ]
 
 export const NavMobileList = (props) => (
-  <motion.ul
-    variants={variants}
-    className={classnames(
-      'nav-mobile-list',
-      props.className,
-    )}
-  >
+  <motion.ul variants={variants} className={classnames('nav-mobile-list', props.className)}>
     {links.map((link, index) => (
       <NavMobileListItem
         toggleOpen={props.toggleOpen}
@@ -48,4 +42,3 @@ export const NavMobileList = (props) => (
     ))}
   </motion.ul>
 )
-
