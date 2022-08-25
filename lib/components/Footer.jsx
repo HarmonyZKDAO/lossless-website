@@ -97,7 +97,7 @@ export const Footer = () => {
                     Discord
                   </FooterLink>
 
-                  <FooterLink href='https://github.com/pooltogether' iconSrc={GithubLogo}>
+                  <FooterLink href='https://github.com/HarmonyZKDAO/lossless-website' iconSrc={GithubLogo}>
                     Github
                   </FooterLink>
 
