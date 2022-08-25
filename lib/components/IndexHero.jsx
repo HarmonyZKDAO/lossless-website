@@ -6,6 +6,7 @@ import { TVLAndWeeklyPrizesBanner } from 'lib/components/TVLAndWeeklyPrizesBanne
 import { WistiaPlayer } from 'lib/components/WistiaPlayer'
 import { IndexHeroFeaturedIn } from 'lib/components/IndexHeroFeaturedIn'
 import { IndexHowItWorks } from 'lib/components/IndexHowItWorks'
+import { HowItWorks } from './HowItWorks'
 
 import Squiggle from 'assets/images/squiggle.svg'
 import SquiggleMobile from 'assets/images/squiggle-mobile.svg'
@@ -24,8 +25,8 @@ export const IndexHero = (props) => {
 
   return (
     <>
-      <div className='relative'>
-        <div className='pool-container flex flex-col sm:flex-row justify-between pt-12 mx-auto'>
+      <div className='relative pt-10'>
+        <div className='pool-container pb-20 flex flex-col sm:flex-row justify-between pt-12 mx-auto'>
           <div className='flex justify-center items-center relative hero-text-left mb-12 sm:mb-0'>
             <div className='w-3/4 xs:w-7/12 sm:w-full mx-auto'>
               <ReactFitty className='font-bold leading-none text-center'>
@@ -36,7 +37,7 @@ export const IndexHero = (props) => {
                 <span className='text-flashy'>& win prizes together</span>
               </ReactFitty>
 
-              <div className='my-8'>
+              <div className='my-12'>
                 <p className='text-lg'>
                   Lossless is an open source and decentralized protocol for no-loss prize games
                 </p>
@@ -76,7 +77,8 @@ export const IndexHero = (props) => {
         {/* <IndexHeroFeaturedIn /> */}
 
         <div className='my-10'>
-          <IndexHowItWorks />
+          <HowItWorks />
+          {/* <IndexHowItWorks /> */}
         </div>
 
         {/* <div className='pool-container text-center relative flex flex-col sm:flex-row mt-10 mb-16 sm:my-20 mx-auto'>

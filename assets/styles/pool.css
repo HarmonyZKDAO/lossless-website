@@ -440,6 +440,10 @@ li.nav-mobile-listitem {
   background-image: linear-gradient(40deg, #1e40af 30%, #a21caf 100%) !important;
 }
 
+.bg-howitworks-section {
+  background-image: linear-gradient(40deg, #312e81 30%, #4c1d95 100%) !important;
+}
+
 .interactable-chip {
   @apply rounded-lg flex;
   min-height: 50px;

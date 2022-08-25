@@ -33,7 +33,7 @@ export const Layout = (props) => {
     <NavMobile />
 
     <div
-      className='flex flex-col w-full bg-slate900'
+      className='flex flex-col w-full bg-slate900 text-slate100'
       style={{
         minHeight: '100vh'
       }}
