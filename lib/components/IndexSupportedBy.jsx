@@ -12,7 +12,8 @@ import ParaFiSvg from 'assets/images/parafi-logo.svg'
 import MetaCartelSvg from 'assets/images/metacartel-logo.svg'
 import TheLaoSvg from 'assets/images/the-lao-logo.svg'
 import RobotVenturesSvg from 'assets/images/robot-ventures-logo.svg'
-import HarmonySvg from 'assets/images/harmony-one-logo.svg'
+import HarmonySvg from 'assets/images/Harmony_ONE.svg'
+import ZkDaoSvg from 'assets/images/zk_dao_logo.svg'
 
 export const IndexSupportedBy = () => {
   const controls = useAnimation()
@@ -53,8 +54,8 @@ export const IndexSupportedBy = () => {
           <GridItemSupportedBy title={'Harmony'} img={HarmonySvg} url='https://www.harmony.one/' />
 
           <GridItemSupportedBy
-            title={'IDEO'}
-            img={IdeoSvg}
+            title={'zkDAO'}
+            img={ZkDaoSvg}
             url='https://www.ideo.com'
             maxHeight={30}
           />
