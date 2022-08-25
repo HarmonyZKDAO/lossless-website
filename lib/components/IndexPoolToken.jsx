@@ -12,17 +12,13 @@ export const IndexPoolToken = (props) => {
               role='img'
               aria-label='sparkles emoji'
               className='relative mx-2 text-2xl lg:text-3xl -t-1 lg:-t-2'
-            >
-              ✨
-            </span>{' '}
+            ></span>{' '}
             <span className='text-flashy'>POOL</span> Token{' '}
             <span
               role='img'
               aria-label='sparkles emoji'
               className='relative mx-2 text-2xl lg:text-3xl -t-1 lg:-t-2'
-            >
-              ✨
-            </span>
+            ></span>
           </h1>
 
           <p className='text-xl text-center mt-10 mx-auto lg:max-w-4xl'>
