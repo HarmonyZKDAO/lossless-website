@@ -22,7 +22,8 @@ const variants = {
 const colors = ['#FF81ED', '#FFD1B3', '#69FEB8', '#80FFF6', '#5FA3FF']
 
 export const NavMobileListItem = ({ link, index, toggleOpen }) => {
-  const style = { color: `${colors[index]}` }
+  // const style = { color: `${colors[index]}` }
+  const style = { color: `${'#458fff'}` }
 
   return <>
     <motion.li

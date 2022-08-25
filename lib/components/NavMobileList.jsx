@@ -25,8 +25,8 @@ const links = [
   },
   {
     label: 'App',
-    href: 'https://app.pooltogether.com',
-    as: 'https://app.pooltogether.com'
+    href: 'https://lossless-ui.vercel.app/',
+    as: 'https://lossless-ui.vercel.app/'
   }
 ]
 
