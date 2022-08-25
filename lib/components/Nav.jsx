@@ -36,7 +36,7 @@ export const Nav = (props) => {
           id='poolBtn'
           rel="noreferrer noopener nofollow"
           href='https://github.com/HarmonyZKDAO/lossless-website'
-          className='hover:text-blue-2 text-slate100'
+          className='hover:text-blue-2 text-slate100 text-lg'
         >
           Developers
         </a>
