@@ -26,7 +26,7 @@ export const IndexHero = (props) => {
   return (
     <>
       <div className='relative pt-10'>
-        <div className='pool-container pb-20 flex flex-col sm:flex-row justify-between pt-12 mx-auto'>
+        <div className='pool-container pb-10 md:pb-20 flex flex-col sm:flex-row justify-between pt-12 mx-auto'>
           <div className='flex justify-center items-center relative hero-text-left mb-12 sm:mb-0'>
             <div className='w-3/4 xs:w-7/12 sm:w-full mx-auto'>
               <ReactFitty className='font-bold leading-none text-center'>

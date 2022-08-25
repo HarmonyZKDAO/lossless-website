@@ -45,13 +45,15 @@ export const IndexPoolToken = (props) => {
                 Deposit to receive POOL tokens
               </ButtonLink>
             </div> */}
-            <a
-              id='poolBtn'
-              href='https://lossless-ui.vercel.app/'
-              className='w-full rounded-lg border-2 text-slate900 border-blue-2 bg-blue-2 px-5 py-2 text-xl font-semibold hover:text-blue-2 hover:bg-darkened transition-colors duration-300 ease-in-out'
-            >
-              Deposit to receive POOL tokens
-            </a>
+            <div className='flex justify-center items-center'>
+              <a
+                id='poolBtn'
+                href='https://lossless-ui.vercel.app/'
+                className='rounded-lg border-2 text-slate900 border-blue-2 bg-blue-2 px-5 py-2 text-xl font-semibold hover:text-blue-2 hover:bg-darkened transition-colors duration-300 ease-in-out'
+              >
+                Deposit to receive POOL tokens
+              </a>
+            </div>
             {/* <div className='sm:w-7/12 lg:w-1/2 sm:mx-auto my-10'>
               <ButtonLink
                 tertiary

@@ -35,7 +35,7 @@ const HowItWorksBox = (props) => {
 export const HowItWorks = () => {
   return (
     <>
-      <div className='bg-howitworks-section py-20 px-32'>
+      <div className='bg-howitworks-section py-20'>
         <h1 className='flex justify-center items-center leading-10 sm:leading-tight'>
           <div>How it works</div>
         </h1>
