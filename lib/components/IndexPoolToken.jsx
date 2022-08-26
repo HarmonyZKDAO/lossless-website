@@ -63,7 +63,7 @@ export const IndexPoolToken = (props) => {
             </div> */}
             <div className='flex justify-center items-center mt-10'>
               <a
-                href='https://github.com/HarmonyZKDAO/lossless-website'
+                href='https://'
                 rel='noreferrer noopener nofollow'
                 className='text-blue-2 hover:underline hover:text-blue-2 w-max-content'
               >
