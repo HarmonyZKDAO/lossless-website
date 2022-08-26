@@ -10,21 +10,21 @@ export const SocialCTAs = () => {
     <>
       <div className='pt-6 flex flex-col sm:flex-row justify-between w-10/12 xs:w-10/12 sm:w-full lg:w-10/12'>
         <a
-          href='https://twitter.com/PoolTogether_'
+          href='https://'
           className='interactable-chip interactable-chip-main-bg items-center justify-center my-2'
         >
           <img alt={`Twitter logo`} src={TwitterLogo} className='h-6 xs:h-8' />
         </a>
 
         <a
-          href='https://discord.gg/hxPhPDW'
+          href='https://'
           className='interactable-chip interactable-chip-main-bg items-center justify-center my-2'
         >
           <img alt={`Discord logo`} src={DiscordLogo} className='h-6 xs:h-8' />
         </a>
 
         <a
-          href='https://github.com/pooltogether'
+          href='https://github.com/HarmonyZKDAO/lossless-website'
           className='interactable-chip interactable-chip-main-bg items-center justify-center my-2'
         >
           <img alt={`Github logo`} src={GithubLogo} className='h-6 xs:h-8' />

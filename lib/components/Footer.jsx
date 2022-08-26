@@ -89,11 +89,11 @@ export const Footer = () => {
                 <span className='font-bold block'>Community</span>
 
                 <ul>
-                  <FooterLink href='https://twitter.com/PoolTogether_' iconSrc={TwitterLogo}>
+                  <FooterLink href='https://' iconSrc={TwitterLogo}>
                     Twitter
                   </FooterLink>
 
-                  <FooterLink href='https://discord.gg/hxPhPDW' iconSrc={DiscordLogo}>
+                  <FooterLink href='https://' iconSrc={DiscordLogo}>
                     Discord
                   </FooterLink>
 
