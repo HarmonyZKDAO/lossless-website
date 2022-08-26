@@ -56,7 +56,7 @@ export const IndexSupportedBy = () => {
           <GridItemSupportedBy
             title={'zkDAO'}
             img={ZkDaoSvg}
-            url='https://www.ideo.com'
+            url='https://zku.one/'
             maxHeight={30}
           />
 
