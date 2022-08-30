@@ -24,7 +24,7 @@ class MyDocument extends Document {
         <Meta />
         <Head>
           <>
-            <link rel='icon' href='/favicon.png' type='image/x-icon' />
+            <link rel='icon' href='/favicon.ico' />
 
             <meta name='theme-color' content='#4f46e5' />
             <meta name='description' content={description} />
