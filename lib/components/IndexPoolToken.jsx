@@ -22,7 +22,7 @@ export const IndexPoolToken = (props) => {
           </h1>
 
           <p className='text-xl text-center mt-10 mx-auto lg:max-w-4xl'>
-            The PoolTogether Protocol is controlled by POOL token holders.
+            The Lossless Protocol is controlled by POOL token holders.
             <br className='hidden lg:block' />
             &nbsp;All changes to the protocol are submitted and approved.
             <br className='hidden lg:block' />
