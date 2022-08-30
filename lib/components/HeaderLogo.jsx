@@ -3,6 +3,8 @@ import Link from 'next/link'
 
 import PoolTogetherLogo from 'assets/images/pooltogether-logo.svg'
 
+import LosslessLogo from 'assets/images/Lossless_logo.svg'
+
 export const HeaderLogo = (props) => {
   return <>
     <div
@@ -15,9 +17,9 @@ export const HeaderLogo = (props) => {
       >
         <a
           title={'Back to home'}
-          className='pool-logo border-0 trans block w-full '
+          className='pool-logo flex justify-center items-center border-0 trans w-auto'
         >
-          <img src={PoolTogetherLogo} />
+          <img src={LosslessLogo} className="w-56"/>
         </a>
       </Link>
     </div>

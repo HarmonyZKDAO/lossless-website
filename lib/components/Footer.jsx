@@ -12,6 +12,7 @@ import DiscordLogo from 'assets/images/discord-logo.svg'
 import TwitterLogo from 'assets/images/twitter-logo.svg'
 
 import PoolTogetherLogo from 'assets/images/pooltogether-logo.svg'
+import LosslessLogo from 'assets/images/Lossless_logo.svg'
 
 export const Footer = () => {
   const [t] = useTranslation()
@@ -49,7 +50,7 @@ export const Footer = () => {
             <div className='footer--pool-logo-container '>
               <Link href='/' as='/' shallow>
                 <a title={'Back to home'} className='pool-logo border-0 trans block w-full'>
-                  <img src={PoolTogetherLogo} />
+                  <img src={LosslessLogo} className="w-56" />
                 </a>
               </Link>
             </div>

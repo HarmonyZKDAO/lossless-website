@@ -228,9 +228,9 @@ input[type='submit'][disabled] {
   @apply border-0 no-underline;
 }
 
-.footer--pool-logo-container {
+/* .footer--pool-logo-container {
   width: 133px;
-}
+} */
 
 .nav--pool-logo-container {
   position: relative;
@@ -247,7 +247,7 @@ input[type='submit'][disabled] {
   height: 52px;
   position: relative;
   z-index: 1;
-  width: 133px;
+  /* width: 133px; */
 }
 
 .pool-logo:hover {
