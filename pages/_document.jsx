@@ -15,7 +15,7 @@ class MyDocument extends Document {
   render() {
     const title = 'Lossless'
     const url = `https://lossless-website.vercel.app`
-    const description = `Win $ every week just by saving your money.`
+    const description = `Win by saving.`
     const keywords = 'ethereum'
     const twitterHandle = ''
 
@@ -36,7 +36,7 @@ class MyDocument extends Document {
             <meta property='og:site_name' content={title} />
             <meta property='og:url' content={url} />
             <meta property='og:type' content='website' />
-            <meta property='og:image' content="https://lossless-website.vercel.app/socialMedia.png" />
+            <meta property='og:image' content={`${url}/socialMedia.png`} />
             <meta property='og:rich_attachment' content='true' />
             <meta property='og:image:width' content='1200' />
             <meta property='og:image:height' content='630' />
@@ -45,7 +45,7 @@ class MyDocument extends Document {
             <meta property='twitter:description' content={description} />
             <meta property='twitter:card' content='summary_large_image' />
             <meta property='twitter:site' content={twitterHandle} />
-            <meta property='twitter:image:src' content="https://lossless-website.vercel.app/socialMedia.png" />
+            <meta property='twitter:image:src' content={`${url}/socialMedia.png`} />
             <meta property='twitter:url' content={url} />
             <meta property='twitter:creator' content={twitterHandle} />
           </>
