@@ -1,37 +1,25 @@
-<p align="center">
-  <a href="https://github.com/pooltogether/pooltogether--brand-assets">
-    <img src="https://github.com/pooltogether/pooltogether--brand-assets/blob/977e03604c49c63314450b5d432fe57d34747c66/logo/pooltogether-logo--purple-gradient.png?raw=true" alt="PoolTogether Brand" style="max-width:100%;" width="200">
-  </a>
-</p>
+# Lossless landing site
 
-<br />
+Code for the latest Lossless landing site.
 
-## PoolTogether Landing Site - v3
+## Run locally
 
-Code for the latest PoolTogether landing site.
-
-#### Setup
-
-Install dependencies:
+### Clone the repository
 
 ```bash
-$ yarn
+git clone https://github.com/HarmonyZKDAO/lossless-website.git
 ```
 
-Make sure you have `direnv` installed and copy `.envrc.example` to `.envrc`:
+### Install dependencies
 
 ```bash
-$ cp .envrc.example .envrc
+yarn install
 ```
 
-Fill in your own values for `.envrc`, then run:
+### Run the development server
 
 ```bash
-$ direnv allow
+yarn dev
 ```
 
-To run the local server, run:
-
-```
-$ yarn dev
-```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
