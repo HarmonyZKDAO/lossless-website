@@ -1,3 +1,5 @@
+![Lossless_Banner](https://user-images.githubusercontent.com/52170174/187763909-a8f0ec4b-0b23-44b7-ba62-61d35db55790.png)
+
 # Lossless landing site
 
 Code for the latest Lossless landing site.
