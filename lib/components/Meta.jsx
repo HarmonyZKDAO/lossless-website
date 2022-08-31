@@ -4,13 +4,13 @@ export const Meta = ({ title }) => {
   const defaultTitle = 'Lossless'
   title = title ? `${title} - ${defaultTitle}` : defaultTitle
 
-  let url = `https://pooltogether.com`
+  let url = `https://lossless-website.vercel.app`
   if (typeof window !== 'undefined') {
     url = window.location.href
   }
-  const description = `PoolTogether`
+  const description = `Lossless`
   const keywords = 'ethereum'
-  const twitterHandle = '@PoolTogether_'
+  const twitterHandle = ''
 
   return (
     <>
