@@ -6,7 +6,6 @@ import Document, { Html, Head, Main, NextScript } from 'next/document'
 import { Meta } from 'lib/components/Meta'
 
 class MyDocument extends Document {
-
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx)
     return { ...initialProps }
@@ -45,24 +44,20 @@ class MyDocument extends Document {
             <meta property='twitter:description' content={description} />
             <meta property='twitter:card' content='summary_large_image' />
             <meta property='twitter:site' content={twitterHandle} />
-            <meta property='twitter:image:src' content={`${url}/socialMedia.png`} />
+            <meta property='twitter:image' content={`${url}/socialMedia.png`} />
             <meta property='twitter:url' content={url} />
             <meta property='twitter:creator' content={twitterHandle} />
           </>
         </Head>
 
-        <body
-          className='bg-body'
-        >
+        <body className='bg-body'>
           <Main />
           <NextScript />
           {/* <script src='/paper.js'></script> */}
-          
         </body>
       </Html>
     )
   }
-
 }
 
 export default MyDocument
